@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Loan Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="Loan_cal">
+      <h1>Loan Calculator </h1>
+      <p>Loan Amount: ৳
+         <input type="number" id="amount" placeholder="Enter loan amount">
+      </p>
+      <p>Interest Rate: %
+         <input step=".1" id="rate" placeholder="Enter interest rate">
+      </p>
+      <p>Time: (Months)
+         <input type="number" id="time" placeholder="Enter loan duration">
+      </p>
+         <input type="button" value="Calculate" id="cal_op" onclick="calculate()">
+      <p>Total EMI: ৳
+         <span style="font-weight: 30px; color: rgb(5, 5, 5);" id="output"></span>
+      </p>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>

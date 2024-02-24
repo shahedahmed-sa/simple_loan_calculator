@@ -1,0 +1,36 @@
+.Loan_cal{
+   width: 420px;
+   height: 550px;
+   background-color: rgba(19, 185, 88, 0.829);
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   padding: 20px 0px 0px 100px;
+   border-radius: 10px;
+   color: white;
+}
+p{
+   color: rgb(255, 255, 255);
+   font-size: 22px;
+   font-family: sans-serif;
+}
+h1{
+   color: rgb(0, 0, 0);
+}
+input{
+   height: 33px;
+   width: 70%;
+   background-color: rgb(213, 250, 227);
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   padding: 6px;
+}
+#cal_op{
+   color: black;
+   font-size: 20px;
+   width: 120px;
+   align-content: center;
+   margin-left:100px;
+   cursor: pointer;
+}
